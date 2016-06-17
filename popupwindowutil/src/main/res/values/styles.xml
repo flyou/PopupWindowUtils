@@ -1,0 +1,65 @@
+<resources>
+
+
+    <style name="Animation_Fade">
+
+        <!-- PopupWindow渐变 -->
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <style name="Animation_Bottom">
+
+        <!-- PopupWindow底部弹出 -->
+        <item name="android:windowEnterAnimation">@anim/bottom_enter</item>
+        <item name="android:windowExitAnimation">@anim/bottom_exit</item>
+    </style>
+
+    <style name="Animation_Top">
+
+        <!-- PopupWindow顶部弹出 -->
+        <item name="android:windowEnterAnimation">@anim/top_enter</item>
+        <item name="android:windowExitAnimation">@anim/top_exit</item>
+    </style>
+
+    <style name="Animation_left">
+        <!-- PopupWindow左右弹出的效果 -->
+        <item name="android:windowEnterAnimation">@anim/left_enter</item>
+        <item name="android:windowExitAnimation">@anim/left_exit</item>
+    </style> <style name="Animation_right">
+        <!-- PopupWindow左右弹出的效果 -->
+        <item name="android:windowEnterAnimation">@anim/right_enter</item>
+        <item name="android:windowExitAnimation">@anim/right_exit</item>
+    </style>
+
+    <style name="Animation_pushUp">
+        <!-- PopupWindow下部推入 -->
+        <item name="android:windowEnterAnimation">@anim/push_up_in</item>
+        <item name="android:windowExitAnimation">@anim/push_down_out</item>
+    </style>
+
+    <style name="Animation_pushDown">
+        <!-- PopupWindow上部推入 -->
+        <item name="android:windowEnterAnimation">@anim/push_down_in</item>
+        <item name="android:windowExitAnimation">@anim/push_up_out</item>
+    </style>
+
+    <style name="Animation_pushUpNoAlpha">
+        <!-- PopupWindow下部推入 -->
+        <item name="android:windowEnterAnimation">@anim/push_up_in_no_alpha</item>
+        <item name="android:windowExitAnimation">@anim/push_down_out_no_alpha</item>
+    </style>
+
+    <style name="Animation_pushDownNoAlpha">
+        <!-- PopupWindow上部推入 -->
+        <item name="android:windowEnterAnimation">@anim/push_down_in_no_alpha</item>
+        <item name="android:windowExitAnimation">@anim/push_up_out_no_alpha</item>
+    </style>
+
+    <style name="Animation_Dialog">
+        <!-- PopupWindowDialog -->
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+
+</resources>
